@@ -1,0 +1,12 @@
+{
+  "name": "BlogApp",
+  "displayName": "BlogApp",
+  "expo": {
+    "name": "BlogApp",
+    "slug": "BlogApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
