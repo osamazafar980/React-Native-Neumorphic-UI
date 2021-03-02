@@ -1,17 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native';
 import {createStackNavigator} from 'react-navigation-stack';
 import { createAppContainer} from 'react-navigation'
-import ObjectRecogScreen from './screens/ObjectRecogScreen'
-
+import NeumorphismScreen from './screens/Neumorphism'
 
 const stackNavigator = createStackNavigator(
   {
-    Home:ObjectRecogScreen
+    Home:NeumorphismScreen
   },{
     initialRouteName: "Home",
     defaultNavigationOptions: {
       headerTitleStyle: { alignSelf: 'center' },
-      title: "Blog Post App",
+      title: "Neumorphism Example App",
     },
     headerMode: 'none',
   navigationOptions: {
